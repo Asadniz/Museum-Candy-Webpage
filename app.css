@@ -1,0 +1,92 @@
+body {
+    background-color: #f5d9d5;
+    font-family: 'Nunito', sans-serif;
+}
+
+#header-navbar ul a {
+    color: white;
+}
+
+#header-navbar a {
+    color: #EA1C2C;
+}
+
+.navbar a {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#header-navbar ul a:hover {
+    color: #EA1c2c;
+}
+
+img {
+    width: 99%;
+    /* padding: 1vw 0 0 0; */
+}
+
+#initial-text h2 {
+    font-size: 4rem;
+    font-weight: 100;
+    width: 100%;
+    margin: 12% 1% 0 0;
+    line-height: 10%;
+    color: white;
+}
+
+#initial-text {
+    margin: 3% 0 0 0;
+}
+
+.initial-text-slash {
+    color: #EA1C2C;
+}
+
+#first-section {
+    margin: 10% 0 0 0;
+}
+
+#first-section span img {
+    margin: 0 2rem 0 0;
+}
+
+div h2 {
+    font-size: 3vw;
+    font-weight: 100;
+    color: #EA1C2C;
+    width: 200%;
+}
+
+div p {
+    font-weight: 300;
+    font-size: 1.5vw;
+    line-height: 2.5rem;
+    color: #f498b8;
+}
+
+
+@media (max-width:1210px) {
+    #initial-text h2 {
+        font-size: 3rem;
+    }
+
+    #middle-content h2 {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 767.2px) {
+    div p {
+        font-size: 2.5vw;
+    }
+
+    div h2 {
+        font-size: 4vw;
+    }
+}
+
+.navbar.scrolled {
+    background-color: #DEC0DE;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+}
